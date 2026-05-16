@@ -5,12 +5,18 @@
 This project creates a data engineering pipeline and analyzes quarterly data from the Lisbon Housing market for the quarter ending in September 2025.
 
 ## Tools used:
-- Python 3.12
+- Python 3.10
 - SQL
 
 ## Commands:
+To run the data engineering pipeline:
 ```bash
 python -m root.src.pipeline
+```
+
+To create the database:
+```bash
+python root/sql/listings_db.py
 ```
 
 ## File Structure

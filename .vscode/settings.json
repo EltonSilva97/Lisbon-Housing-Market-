@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "lisbon_housing.db",
+            "name": "Lisbon Housing Database"
+        }
+    ]
+}
