@@ -37,6 +37,7 @@ python root/sql/listings_db.py
     - notebooks:
         - Data_exploration.ipynb
     - sql:
+        - listings_db.py
         - queries.sql
     - src:
         - __init__.py
@@ -45,9 +46,25 @@ python root/sql/listings_db.py
         - pipeline.py
         - validation.py
     - visuals
+        - charts
+        - dashboard_screenshots
+        - sql_outputs
+            - availability_profile_by_avg_reviews.csv
+            - availability_profile_by_price.csv
+            - availability_profile_vs_host_size_category.csv
+            - demand_by_neighbourhood.csv
+            - host_size_analysis.csv
+            - neighbourhood_price_summary.csv
+            - review_activity_by_avg_review.csv
+            - review_activity_by_neighbourhood.csv
+            - review_activity_by_price.csv
+            - room_type_by_avg_estimated_bookings.csv
+            - room_type_by_avg_minimum_night.csv
+            -room_type_by_avg_price.csv
     - __init__.py
     - README.md
     - requirements.txt
+lisbon_using.db
 ```
 
 ## Requirements:
