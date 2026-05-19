@@ -41,6 +41,7 @@ python root/sql/listings_db.py
         - queries.sql
     - src:
         - __init__.py
+        - .gitignore
         - data_cleaning.py
         - feature_engineering.py
         - pipeline.py
@@ -64,7 +65,7 @@ python root/sql/listings_db.py
     - __init__.py
     - README.md
     - requirements.txt
-lisbon_using.db
+- lisbon_using.db
 ```
 
 ## Requirements:
