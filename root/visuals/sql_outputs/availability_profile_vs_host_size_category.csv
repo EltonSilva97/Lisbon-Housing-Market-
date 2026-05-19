@@ -1,0 +1,17 @@
+availability_profile,host_size_category,listing_count,avg_availability_ratio,avg_host_size
+Always Available,Commercial Host,2540,0.91,94.24
+Always Available,Single Host,2696,0.91,1.0
+Always Available,Small Host,3176,0.91,3.2
+Always Available,Professional Host,3544,0.9,11.28
+Highly Available,Professional Host,1039,0.66,10.54
+Highly Available,Commercial Host,640,0.65,120.13
+Highly Available,Single Host,1264,0.65,1.0
+Highly Available,Small Host,1227,0.65,3.11
+Moderately Available,Single Host,809,0.39,1.0
+Moderately Available,Small Host,873,0.39,3.08
+Moderately Available,Commercial Host,442,0.38,96.93
+Moderately Available,Professional Host,780,0.38,11.21
+Rarely Available,Professional Host,1498,0.09,11.12
+Rarely Available,Small Host,1695,0.08,3.17
+Rarely Available,Single Host,1793,0.06,1.0
+Rarely Available,Commercial Host,1433,0.05,137.91

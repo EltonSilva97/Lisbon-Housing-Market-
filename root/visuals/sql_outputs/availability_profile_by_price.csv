@@ -1,0 +1,25 @@
+availability_profile,price_category,listing_count,avg_price
+Always Available,Luxury,403,4304.85
+Always Available,Premium,1701,288.08
+Always Available,Mid-range,4693,140.91
+Always Available,Affordable,3796,78.6
+Always Available,Budget,933,39.09
+Always Available,NULL,430,NULL
+Highly Available,Luxury,100,1401.97
+Highly Available,Premium,545,280.53
+Highly Available,Mid-range,1536,140.03
+Highly Available,Affordable,1375,78.21
+Highly Available,Budget,465,38.22
+Highly Available,NULL,149,NULL
+Moderately Available,Luxury,59,1631.34
+Moderately Available,Premium,339,282.75
+Moderately Available,Mid-range,1082,139.39
+Moderately Available,Affordable,921,77.81
+Moderately Available,Budget,368,37.82
+Moderately Available,NULL,135,NULL
+Rarely Available,Luxury,84,8645.62
+Rarely Available,Premium,455,287.04
+Rarely Available,Mid-range,1222,141.03
+Rarely Available,Affordable,1254,74.5
+Rarely Available,Budget,539,38.46
+Rarely Available,NULL,2865,NULL

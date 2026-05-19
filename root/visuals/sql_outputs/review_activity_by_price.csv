@@ -1,0 +1,25 @@
+review_activity,price_category,listing_count,avg_price,avg_estimated_bookings_month
+No Reviews,Luxury,229,7703.38,0.0
+No Reviews,Premium,406,293.12,0.0
+No Reviews,Mid-range,900,144.87,0.0
+No Reviews,Affordable,624,75.1,0.0
+No Reviews,Budget,268,37.04,0.0
+No Reviews,NULL,767,NULL,0.0
+Low,Luxury,273,2088.03,0.75
+Low,Premium,1224,289.63,0.84
+Low,Mid-range,3205,141.78,0.9
+Low,Affordable,2791,76.89,0.92
+Low,Budget,925,38.18,0.94
+Low,NULL,2216,NULL,0.64
+Medium,Luxury,140,1503.28,3.91
+Medium,Premium,1357,281.63,4.71
+Medium,Mid-range,4179,139.06,4.87
+Medium,Affordable,3701,78.77,4.77
+Medium,Budget,995,39.46,4.82
+Medium,NULL,584,NULL,3.93
+High,Luxury,4,38242.0,10.87
+High,Premium,53,258.23,12.8
+High,Mid-range,249,134.97,12.66
+High,Affordable,230,78.18,13.49
+High,Budget,117,37.45,13.53
+High,NULL,12,NULL,14.54

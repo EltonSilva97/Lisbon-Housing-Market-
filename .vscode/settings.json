@@ -6,5 +6,6 @@
             "database": "lisbon_housing.db",
             "name": "Lisbon Housing Database"
         }
-    ]
+    ],
+    "sqltools.useNodeRuntime": true
 }

@@ -1,0 +1,61 @@
+review_activity,neighbourhood_group,listing_count,avg_reviews,avg_estimated_bookings_month
+No Reviews,Vila Franca De Xira,17,0.0,0.0
+No Reviews,Torres Vedras,61,0.0,0.0
+No Reviews,Sobral De Monte Agrao,6,0.0,0.0
+No Reviews,Sintra,241,0.0,0.0
+No Reviews,Oeiras,80,0.0,0.0
+No Reviews,Odivelas,50,0.0,0.0
+No Reviews,Mafra,145,0.0,0.0
+No Reviews,Lourinh,111,0.0,0.0
+No Reviews,Loures,53,0.0,0.0
+No Reviews,Lisboa,2047,0.0,0.0
+No Reviews,Cascais,316,0.0,0.0
+No Reviews,Cadaval,14,0.0,0.0
+No Reviews,Azambuja,3,0.0,0.0
+No Reviews,Arruda Dos Vinhos,1,0.0,0.0
+No Reviews,Amadora,29,0.0,0.0
+No Reviews,Alenquer,20,0.0,0.0
+Low,Vila Franca De Xira,47,11.13,0.9
+Low,Torres Vedras,245,18.06,0.85
+Low,Sobral De Monte Agrao,18,9.83,0.4
+Low,Sintra,850,23.03,0.84
+Low,Oeiras,248,17.58,0.85
+Low,Odivelas,73,11.81,0.85
+Low,Mafra,872,23.38,0.79
+Low,Lourinh,363,12.41,0.66
+Low,Loures,141,14.2,0.85
+Low,Lisboa,6237,21.32,0.86
+Low,Cascais,1288,23.24,0.86
+Low,Cadaval,44,19.93,0.88
+Low,Azambuja,14,10.21,0.56
+Low,Arruda Dos Vinhos,8,16.75,0.68
+Low,Amadora,112,15.13,0.9
+Low,Alenquer,74,12.35,0.68
+Medium,Vila Franca De Xira,13,16.69,4.18
+Medium,Torres Vedras,95,34.55,3.34
+Medium,Sobral De Monte Agrao,3,123.0,3.68
+Medium,Sintra,558,100.5,4.39
+Medium,Oeiras,193,66.43,4.32
+Medium,Odivelas,40,47.15,4.35
+Medium,Mafra,314,66.11,3.47
+Medium,Lourinh,98,40.36,3.49
+Medium,Loures,93,71.62,4.68
+Medium,Lisboa,8562,141.71,4.94
+Medium,Cascais,821,72.01,4.0
+Medium,Cadaval,16,23.56,3.61
+Medium,Azambuja,1,4.0,3.38
+Medium,Arruda Dos Vinhos,3,48.33,3.37
+Medium,Amadora,124,65.36,4.91
+Medium,Alenquer,22,35.59,3.98
+High,Vila Franca De Xira,1,45.0,10.08
+High,Torres Vedras,5,60.6,11.86
+High,Sintra,31,227.06,14.07
+High,Oeiras,3,112.0,12.3
+High,Odivelas,2,87.0,10.83
+High,Mafra,4,42.75,11.56
+High,Lourinh,1,9.0,18.0
+High,Loures,18,416.72,16.88
+High,Lisboa,582,229.39,12.99
+High,Cascais,12,180.25,13.64
+High,Cadaval,1,11.0,13.2
+High,Amadora,5,143.4,12.44
