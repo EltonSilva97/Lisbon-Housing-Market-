@@ -1,12 +1,53 @@
 # Lisbon Housing Market - Data Engineering & Analysis
 **Author:** Elton Silva
 
-## Overview:
-This project creates a data engineering pipeline and analyzes quarterly data from the Lisbon Housing market for the quarter ending in September 2025.
+## Overview
 
-## Tools used:
+This project performs an end-to-end analysis of the Lisbon housing market using Python, SQL, and Power BI.
+The analysis uses a 2025 snapshot of the Lisbon housing market dataset.
+The objective is to understand housing dynamics across Lisbon municipalities by analyzing:
+
+- pricing differences
+- estimated demand
+- host characteristics
+- availability patterns
+- review activity
+
+The project includes:
+
+- automated data cleaning pipeline
+- feature engineering
+- SQL business analysis
+- interactive Power BI dashboard
+
+## Key Insights
+
+- Lisbon city had the highest listing volume with over 17000 listings.
+- Cascais showed premium pricing relative to surrounding municipalities.
+- Professional hosts tend to charge higher average prices.
+- Listings with lower availability generally exhibit stronger review activity, suggesting higher occupancy.
+
+## Tech Stack
+
+### Languages
 - Python 3.10
 - SQL
+
+### Libraries
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Data Storage
+- SQLite
+
+### Visualization
+- Power BI
+
+### Development
+- VS Code
+- Git
 
 ## Commands:
 To run the data engineering pipeline:
@@ -50,29 +91,8 @@ python root/sql/listings_db.py
         - charts
         - dashboard_screenshots
         - sql_outputs
-            - availability_profile_by_avg_reviews.csv
-            - availability_profile_by_price.csv
-            - availability_profile_vs_host_size_category.csv
-            - demand_by_neighbourhood.csv
-            - host_size_analysis.csv
-            - neighbourhood_price_summary.csv
-            - review_activity_by_avg_review.csv
-            - review_activity_by_neighbourhood.csv
-            - review_activity_by_price.csv
-            - room_type_by_avg_estimated_bookings.csv
-            - room_type_by_avg_minimum_night.csv
-            -room_type_by_avg_price.csv
     - __init__.py
     - README.md
     - requirements.txt
-- lisbon_using.db
+- lisbon_housing.db
 ```
-
-## Requirements:
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- Path
-- logging
