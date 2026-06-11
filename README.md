@@ -63,7 +63,8 @@ python root/sql/listings_db.py
 ## File Structure
 ```text
 - root:
-    - dashboard
+    - dashboard:
+        - listings_dashboard.pbix
     - data:
         - processed:
             - listings_data_clean.csv
@@ -87,9 +88,12 @@ python root/sql/listings_db.py
         - feature_engineering.py
         - pipeline.py
         - validation.py
-    - visuals
-        - charts
-        - dashboard_screenshots
+    - visuals:
+        - dashboard_screenshots:
+            - Executive Overview.png
+            - Availability Analysis.png
+            - Pricing Analysis.png
+            - Reviews Analysis.png
         - sql_outputs
     - __init__.py
     - README.md
