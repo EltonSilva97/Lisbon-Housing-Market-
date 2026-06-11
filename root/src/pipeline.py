@@ -3,6 +3,7 @@ from pathlib import Path
 from root.src.data_cleaning import clean_data
 from root.src.feature_engineering import feature_engineering
 from root.src.validation import validation
+import csv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 listings_data_path = BASE_DIR / "data" / "raw" / "listings.csv"
@@ -19,7 +20,15 @@ def load_data(input_path):
     Returns
     pd.DataFrame
     """
-    return pd.read_csv(input_path)
+    return pd.read_csv(
+            input_path,
+            encoding="utf-8",
+            quotechar='"',
+            escapechar="\\",
+            quoting=csv.QUOTE_MINIMAL,
+            on_bad_lines="skip",
+            low_memory=False
+        )
 
 def save_data(df, output_path):
     """
@@ -34,7 +43,13 @@ def save_data(df, output_path):
     pd.DataFrame after all transformations
     """
     
-    df.to_csv(output_path, index=False)
+    df.to_csv(
+        output_path,
+        index=False,
+        encoding="utf-8-sig",
+        sep=";",
+        quoting=csv.QUOTE_ALL
+    )
     
 def run_pipeline(input_path, output_path):
     """

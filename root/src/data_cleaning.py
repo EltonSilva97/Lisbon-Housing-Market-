@@ -53,6 +53,46 @@ def handle_missing_values(df):
     
     return df
 
+def remove_malformed_rows(df):
+    """
+    Removes rows where key columns contain shifted or invalid values.
+    """
+    valid_room_types = [
+        "Entire home/apt",
+        "Private room",
+        "Shared room",
+        "Hotel room"
+    ]
+
+    df = df.copy()
+    
+    valid_room_types = {
+        "Entire home/apt",
+        "Private room",
+        "Shared room",
+        "Hotel room"
+    }
+
+    before = len(df)
+
+    df = df[df["id"].astype(str).str.match(r"^\d+$", na=False)]
+    df = df[df["host_id"].astype(str).str.match(r"^\d+$", na=False)]
+    df = df[df["room_type"].isin(valid_room_types)]
+
+    after = len(df)
+
+    print(f"Removed malformed rows: {before - after}")
+
+    df = df[df["id"].notna()]
+    df = df[df["id"].astype(str).str.match(r"^\d+$", na=False)]
+
+    df = df[df["host_id"].notna()]
+    df = df[df["host_id"].astype(str).str.match(r"^\d+$")]
+
+    df = df[df["room_type"].isin(valid_room_types)]
+
+    return df
+
 
 def clean_data(df):
     """
@@ -64,6 +104,12 @@ def clean_data(df):
     """
     
     df = df.copy()
+    
+    df = df[df["id"].notna()]
+    df = df[df["id"].astype(str).str.match(r"^\d+$")]
+    df["id"] = df["id"].astype("int64")
+    
+    df = remove_malformed_rows(df)
     df = correct_datatypes(df)
     df = handle_missing_values(df)
     

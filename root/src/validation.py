@@ -64,4 +64,24 @@ def validation(df):
         ].empty
     ), "Rows with reviews but missing last_review"
     
+    valid_availability_profiles = {
+        "Rarely Available",
+        "Moderately Available",
+        "Highly Available",
+        "Always Available"
+    }
+
+    invalid_availability_profiles = df[
+        ~df["availability_profile"].isin(valid_availability_profiles)
+    ]
+
+    logging.info(
+        "Invalid availability_profile rows: %s",
+        len(invalid_availability_profiles)
+    )
+
+    assert invalid_availability_profiles.empty, (
+        "Invalid availability_profile values found"
+    )
+    
     return df
