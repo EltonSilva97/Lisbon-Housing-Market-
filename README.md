@@ -99,6 +99,7 @@ python root/sql/listings_db.py
     - README.md
     - requirements.txt
 - lisbon_housing.db
+```
 
 ## Dashboard Preview
 
@@ -113,4 +114,3 @@ python root/sql/listings_db.py
 
 ### Reviews Analysis
 ![Reviews Analysis](./root/visuals/dashboard_screenshots/Reviews_Analysis.png)
-```
