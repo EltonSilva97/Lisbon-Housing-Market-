@@ -103,14 +103,14 @@ python root/sql/listings_db.py
 ## Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](root/visuals/dashboard_screenshots/Executive%20Overview.png)
+![Executive Overview](root/visuals/dashboard_screenshots/Executive_Overview.png)
 
 ### Availability Analysis
-![Availability Analysis](root/visuals/dashboard_screenshots/Availability%20Analysis.png)
+![Availability Analysis](root/visuals/dashboard_screenshots/Availability_Analysis.png)
 
 ### Pricing Analysis
-![Pricing Analysis](root/visuals/dashboard_screenshots/Pricing%20Analysis.png)
+![Pricing Analysis](root/visuals/dashboard_screenshots/Pricing_Analysis.png)
 
 ### Reviews Analysis
-![Reviews Analysis](root/visuals/dashboard_screenshots/Reviews%20Analysis.png)
+![Reviews Analysis](root/visuals/dashboard_screenshots/Reviews_Analysis.png)
 ```
