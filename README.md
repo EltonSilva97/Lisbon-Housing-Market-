@@ -20,6 +20,10 @@ The project includes:
 - SQL business analysis
 - interactive Power BI dashboard
 
+## Interactive Dashboard
+
+🔗 **Live Dashboard:** [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU0MDY1ZWYtYWZkMy00M2U4LTg0MmUtMDlhN2Q2ZWZhNGMyIiwidCI6ImU0YmQ2OWZmLWU2ZjctNGMyZS1iMjQ3LTQxYjU0YmEyNDkwZSIsImMiOjh9)
+
 ## Key Insights
 
 - Lisbon city had the highest listing volume with over 17,000 listings.
