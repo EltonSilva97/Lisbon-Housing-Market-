@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 
 # Load cleaned CSV
-df = pd.read_csv("root/data/processed/listings_data_clean.csv")
+df = pd.read_csv("root/data/processed/listings_data_clean.csv", sep=";")
 
 # Create database
 conn = sqlite3.connect("lisbon_housing.db")
