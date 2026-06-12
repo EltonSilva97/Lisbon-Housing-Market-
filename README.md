@@ -22,7 +22,7 @@ The project includes:
 
 ## Key Insights
 
-- Lisbon city had the highest listing volume with over 17000 listings.
+- Lisbon city had the highest listing volume with over 17,000 listings.
 - Cascais showed premium pricing relative to surrounding municipalities.
 - Professional hosts tend to charge higher average prices.
 - Listings with lower availability generally exhibit stronger review activity, suggesting higher occupancy.
@@ -99,4 +99,18 @@ python root/sql/listings_db.py
     - README.md
     - requirements.txt
 - lisbon_housing.db
+
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](root/visuals/dashboard_screenshots/Executive%20Overview.png)
+
+### Availability Analysis
+![Availability Analysis](root/visuals/dashboard_screenshots/Availability%20Analysis.png)
+
+### Pricing Analysis
+![Pricing Analysis](root/visuals/dashboard_screenshots/Pricing%20Analysis.png)
+
+### Reviews Analysis
+![Reviews Analysis](root/visuals/dashboard_screenshots/Reviews%20Analysis.png)
 ```
